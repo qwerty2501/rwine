@@ -1,0 +1,8 @@
+[workspace]
+
+members = ["tools/wine"]
+
+
+[profile.release]
+strip = "debuginfo"
+lto = "thin"
